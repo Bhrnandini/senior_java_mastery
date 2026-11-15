@@ -23,3 +23,4 @@ public class Overflow {
         System.out.println("Widened safely to long: " + widened);
     }
 }
+// let Math.addExact() fail the request totally instead of updating corrupt/negative values.
